@@ -37,6 +37,6 @@ jobs:
         run: npm build
         
       - name: Publishing to Surge
-        run: surge ${ {secrets.SURGE_TOKEN} } ./build http://adeel_demo1.surge.sh/
+        run: surge ./build adeel_demo1.surge.sh --token ${{secrets.SURGE_TOKEN}}
         
       
