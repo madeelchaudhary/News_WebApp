@@ -33,6 +33,9 @@ jobs:
       - name: Setting up Packages
         run: npm install
         
+      - name: install surge
+        run: npm install -g surge
+        
       - name: Setting UP Build
         run: npm run build
         
