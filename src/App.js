@@ -1,5 +1,5 @@
 // import logo from './logo.svg';
-import List from "./list"
+// import List from "./list"
 // import './App.css';
 
 // function App() {
@@ -23,9 +23,16 @@ import List from "./list"
 //   );
 // }
 function App() {
-  return (
-      <List />
-  );
+  let date = new Date();
+  let message;
+  if (date.getHours() >= 1 && date.getHours() <= 11) {
+    message = "Good Morning";
+  } else if (date.getHours() >= 12 && date.getHours() <= 19) {
+    message = "Good Afternoon";
+  } else {
+    message = "Good Night";
+  }
+  return <span className="userMessage">{message}</span>;
 }
 
 export default App;

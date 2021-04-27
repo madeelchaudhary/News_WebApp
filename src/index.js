@@ -3,10 +3,18 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 // import reportWebVitals from './reportWebVitals';
+let p1Style = {
+  padding: "10px",
+  backgroundColor: "navy",
+  borderRadius: "7px",
+  boxShadow: "0 0 4px 2px #333",
+  fontWeight: "700",
+  fontSize: "29px"
+}
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <p style={p1Style}>Hello Sir, <App /> </p>
   </React.StrictMode>,
   document.getElementById('root')
 );
