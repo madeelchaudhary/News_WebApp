@@ -1,0 +1,34 @@
+.btn {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 1.3rem 2.5rem;
+  background-color: #00d2ff;
+  -webkit-transition: all 450ms ease-in-out;
+  transition: all 450ms ease-in-out;
+  font-family: "Poppins";
+  border-radius: 6px;
+  -webkit-transform-origin: left;
+          transform-origin: left;
+  margin-top: 0.5rem;
+}
+
+.btn a {
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.btn:hover {
+  letter-spacing: 1.2px;
+  -webkit-transform: scaleX(1.19);
+          transform: scaleX(1.19);
+  background-color: #1d4350;
+  -webkit-box-shadow: 0 0 4px 1px #ffc371, 0 0 8px 2px #ffc371;
+          box-shadow: 0 0 4px 1px #ffc371, 0 0 8px 2px #ffc371;
+}
+
+.btn a {
+  color: white;
+  font-size: 1.6rem;
+}
+/*# sourceMappingURL=readbtn.css.map */

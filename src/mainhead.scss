@@ -1,0 +1,49 @@
+@import "./mainstyles/cssvariables/variables";
+
+.header {
+  text-align: center;
+  height: 120px;
+  overflow: hidden;
+  margin-bottom: 20px;
+  .mainHeading {
+    background-color: $btnHover;
+    width: 100%;
+    height: 63%;
+    color: white;
+    font-family: $textFont;
+    font-weight: 800;
+    font-size: 2.3rem;
+    transform: skewX(-20deg);
+    margin-top: 3px;
+    box-shadow: -10px 0 5px 1px $btnPrimary, 10px 0 5px 1px $btnPrimary;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  .headerTime {
+    line-height: 55px;
+    height: 37%;
+    margin: auto;
+    width: 100%;
+    background: $btnSecondary;
+    font-family: $stylingFont;
+    font-size: 2rem;
+    font-weight: 600;
+    letter-spacing: 0.3rem;
+  }
+}
+
+@media screen and (max-width: 839px) {
+  .mainHeading h2 {
+    font-weight: 700;
+    font-size: 1.9rem;
+  }
+}
+@media screen and (max-width: 480px) {
+  .mainHeading h2 {
+    font-weight: 600;
+    font-size: 1.6rem;
+    line-height: normal;
+  }
+}

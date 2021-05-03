@@ -1,0 +1,8 @@
+@import "E:/Projects/react_project/first_demo/src/mainstyles/cssfunctions/btns/btn";
+@import "E:/Projects/react_project/first_demo/src/mainstyles/cssfunctions/btns/btnprimary";
+
+.btn {
+  @include btn;
+  @include btnPrimary;
+  margin-top: 0.5rem;
+}

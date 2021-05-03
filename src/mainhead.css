@@ -1,0 +1,60 @@
+.header {
+  text-align: center;
+  height: 120px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.header .mainHeading {
+  background-color: #1d4350;
+  width: 100%;
+  height: 63%;
+  color: white;
+  font-family: "Poppins";
+  font-weight: 800;
+  font-size: 2.3rem;
+  -webkit-transform: skewX(-20deg);
+          transform: skewX(-20deg);
+  margin-top: 3px;
+  -webkit-box-shadow: -10px 0 5px 1px #00d2ff, 10px 0 5px 1px #00d2ff;
+          box-shadow: -10px 0 5px 1px #00d2ff, 10px 0 5px 1px #00d2ff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.header .headerTime {
+  line-height: 55px;
+  height: 37%;
+  margin: auto;
+  width: 100%;
+  background: #ffc371;
+  font-family: "Aguafina Script", cursive;
+  font-size: 2rem;
+  font-weight: 600;
+  letter-spacing: 0.3rem;
+}
+
+@media screen and (max-width: 839px) {
+  .mainHeading h2 {
+    font-weight: 700;
+    font-size: 1.9rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .mainHeading h2 {
+    font-weight: 600;
+    font-size: 1.6rem;
+    line-height: normal;
+  }
+}
+/*# sourceMappingURL=mainhead.css.map */
